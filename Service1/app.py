@@ -9,7 +9,7 @@ app = Flask(__name__)
 def get_ip():
     return socket.gethostbyname(socket.gethostname())
 
-def get_running_processes():
+def get_running_processes():  
     return subprocess.getoutput("ps -ax")
 
 def get_disk_space():
@@ -28,8 +28,6 @@ def service1_info():
     except requests.exceptions.RequestException as e:
         service2_info = {'error': 'Unable to reach Service2', 'details': str(e)}
 
-
-    # Collect Service1 info
     service1_info = {
         'service': 'Service1',
         'ip_address': get_ip(),

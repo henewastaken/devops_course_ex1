@@ -1,6 +1,5 @@
 const express = require('express');
 const os = require('os');
-const osu = require('node-os-utils');
 const { execSync } = require('child_process');
 const app = express();
 const port = 8200;

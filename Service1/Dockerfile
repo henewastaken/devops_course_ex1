@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.9
 
 WORKDIR /app
 
@@ -10,4 +10,4 @@ COPY app.py .
 
 EXPOSE 8199
 
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]
