@@ -1,0 +1,3 @@
+Your text has 61 words. Here's an improved version:
+
+The containers share a bridge network with the host, allowing communication through specific IP addresses. Both service1 and service2 use process listing commands to display processes running within the containers. Each container has its own filesystem, though they rely on the host's underlying storage. Both containers have access to the available disk space from the host.

@@ -1,0 +1,5 @@
+Llm tools was used to make this exercise. 
+Copilot plugin for vs code was used in troubleshooting. It was helpful in explaining the issue, but providing a fix took couple attempts. Googling would have been faster. 
+Copilot helped especially in python script not recognizing ‘ps’ command, and provided Dockerfile changes, but it made couple mistakes before providing correct libraries. Again, googling would be better.
+
+Also chatGPT was used to enhance text quality and in fixing grammatical errors. 

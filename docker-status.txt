@@ -1,0 +1,11 @@
+docker container ls:
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+b6de5de8694e   ex1-service1   "python app.py"          29 seconds ago   Up 27 seconds   0.0.0.0:8199->8199/tcp, :::8199->8199/tcp   ex1-service1-1
+4f4d0de9dd59   ex1-service2   "docker-entrypoint.s…"   29 seconds ago   Up 27 seconds   0.0.0.0:8200->8200/tcp, :::8200->8200/tcp   ex1-service2-1
+
+docker network ls:
+NETWORK ID     NAME          DRIVER    SCOPE
+22e0f5ae299b   bridge        bridge    local
+ed6aa94622a6   ex1_default   bridge    local
+c39bad53f747   host          host      local
+233bab04e9a5   none          null      local
